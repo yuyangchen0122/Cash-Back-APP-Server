@@ -1,0 +1,22 @@
+{
+  "name": "cash_back_app_server",
+  "version": "1.0.0",
+  "description": "flutter cash back app by yuyang",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuyangchen0122/Cash-Back-APP-Server.git"
+  },
+  "keywords": [
+    "cash_back"
+  ],
+  "author": "Yuyang Chen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yuyangchen0122/Cash-Back-APP-Server/issues"
+  },
+  "homepage": "https://github.com/yuyangchen0122/Cash-Back-APP-Server#readme"
+}
