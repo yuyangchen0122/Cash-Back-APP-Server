@@ -4,8 +4,12 @@
   "description": "flutter cash back app by yuyang",
   "main": "server.js",
   "scripts": {
-    "start": "cross-env NODE_ENV=production node server",
-    "dev": "cross-env NODE_ENV=development nodemon server"
+    "start": "node server.js",
+    "client": "cd client && npm run start",
+    "build": "cd client && npm run build",
+    "server": "nodemon app.js",
+    "heroku-postbuild": "cd client && npm install && npm install --only=dev --no-shrinkwrap && npm run build",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "repository": {
     "type": "git",
