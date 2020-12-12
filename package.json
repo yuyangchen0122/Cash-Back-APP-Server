@@ -6,8 +6,8 @@
   "scripts": {
     "start": "node server.js",
     "dev": "nodemon server.js",
-    "build": "ng build",
-    "heroku-postbuild": "ng build --prod"
+    "build": "npm run build",
+    "heroku-postbuild": "npm run build --prod"
   },
   "repository": {
     "type": "git",
