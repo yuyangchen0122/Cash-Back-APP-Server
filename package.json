@@ -5,11 +5,11 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "client": "cd client && npm run start",
-    "build": "cd client && npm run build",
-    "server": "nodemon app.js",
-    "heroku-postbuild": "cd client && npm install && npm install --only=dev --no-shrinkwrap && npm run build",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+    "client": "npm run start",
+    "build": "npm run build",
+    "server": "nodemon server.js",
+    "heroku-postbuild": "npm install && npm install --only=dev --no-shrinkwrap && npm run build",
+    "dev": "concurrently \"npm run server\""
   },
   "repository": {
     "type": "git",
